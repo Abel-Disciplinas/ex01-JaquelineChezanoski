@@ -9,7 +9,7 @@ function iteracao_mandelbrot(cx, cy; max_iter = 40)
  
   x = y = 0
   
-  while x^2 + y^2 <= 2^2 && inter < max_iter
+  while x^2 + y^2 <= 2^2 && iter < max_iter
     xtemp = x^2 - y^2 + cx
     y = 2*x*y +cy
     x = xtemp
